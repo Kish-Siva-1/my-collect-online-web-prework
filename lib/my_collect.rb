@@ -6,6 +6,7 @@ def my_collect(array_input)
     arr[counter]=yield array_input[counter]
     counter+=1
   end
+  arr
   
 end
 
